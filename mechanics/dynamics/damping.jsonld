@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "damping": "https://roboticscosmos.github.io/metamodels/dynamics/damping",
+
+    "LinearDamping": "damping:LinearDamping",
+
+    "damping-diagonal-matrix": {
+      "@id": "damping:damping-diagonal-matrix",
+      "@type": "@id",
+      "@container": "@list"
+    },
+
+    "velocity": {
+      "@id": "damping:velocity",
+      "@type": "@id"
+    }
+  }
+}

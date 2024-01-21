@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "cascadedController": "https://roboticscosmos.github.io/metamodels/controllers/cascaded_controller#",
+
+    "CascadedController": "cascadedController:CascadedController",
+    "PositionVelocityController": "cascadedController:PositionVelocityController",
+
+    "position-controller": {
+      "@id": "cascadedController:position-controller",
+      "@type": "@id"
+    },
+
+    "velocity-controller": {
+      "@id": "cascadedController:velocity-controller",
+      "@type": "@id"
+    }
+  }
+}

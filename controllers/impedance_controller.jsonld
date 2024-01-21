@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "impedanceController": "https://roboticscosmos.github.io/metamodels/controllers/impedance_controller#",
+
+    "ImpedanceController": "impedanceController:ImpedanceController",
+
+    "stiffness": {
+      "@id": "impedanceController:stiffness",
+      "@type": "@id"
+    },
+
+    "damping": {
+      "@id": "impedanceController:damping",
+      "@type": "@id"
+    }
+  }
+}

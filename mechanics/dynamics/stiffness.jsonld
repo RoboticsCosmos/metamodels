@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "stiffness": "https://roboticscosmos.github.io/metamodels/dynamics/stiffness#",
+
+    "LinearStiffness": "stiffness:LinearStiffness",
+
+    "stiffness-diagonal-matrix": {
+      "@id": "stiffness:stiffness-diagonal-matrix",
+      "@type": "xsd:float",
+      "@container": "@list"
+    },
+
+    "position": {
+      "@id": "stiffness:position",
+      "@type": "@id"
+    }
+  }
+}

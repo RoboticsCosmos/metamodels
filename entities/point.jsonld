@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "point": "https://roboticscosmos.github.io/metamodels/entities/point#",
+    "Point": "point:Point"
+  }
+}

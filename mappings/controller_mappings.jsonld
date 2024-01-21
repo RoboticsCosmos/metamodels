@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "controllerMapping": "https://roboticscosmos.github.io/metamodels/mappings/controller_mappings#",
+
+    "ControllerMapping": "mapping:ControllerMapping",
+
+    "controller": {
+      "@id": "controllerMapping:controller",
+      "@type": "@id"
+    },
+
+    "output": {
+      "@id": "controllerMapping:output",
+      "@type": "xsd:string"
+    }
+  }
+}

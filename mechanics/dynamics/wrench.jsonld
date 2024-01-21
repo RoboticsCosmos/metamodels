@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "wrench": "https://roboticscosmos.github.io/metamodels/dynamics/wrench#",
+
+    "Wrench": "wrench:Wrench",
+    "Force": "wrench:Force",
+    "ContactForce": "wrench:ContactForce",
+    "Torque": "wrench:Torque",
+
+    "applied-by": {
+      "@id": "wrench:applied-by",
+      "@type": "@id"
+    },
+
+    "applied-to": {
+      "@id": "wrench:applied-to",
+      "@type": "@id"
+    }
+  }
+}

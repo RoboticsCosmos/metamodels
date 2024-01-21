@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "motionSpec": "https://roboticscosmos.github.io/metamodels/motion_specification#",
+
+    "MotionSpec": "motionSpec:MotionSpec",
+
+    "mappings": {
+      "@id": "motionSpec:mappings",
+      "@type": "@id"
+    },
+
+    "pre-conditions": {
+      "@id": "motionSpec:pre-conditions",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "per-conditions": {
+      "@id": "motionSpec:per-conditions",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "post-conditions": {
+      "@id": "motionSpec:post-conditions",
+      "@type": "@id",
+      "@container": "@set"
+    }
+  }
+}

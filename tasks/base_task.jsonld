@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "baseTask": "https://roboticscosmos.github.io/metamodels/tasks/base_task#",
+
+    "BaseTask": "baseTask:BaseTask",
+
+    "q-init": {
+      "@id": "baseTask:q-init",
+      "@type": "xsd:int",
+      "@container": "@list"
+    },
+
+    "motion-specifications": {
+      "@id": "baseTask:motion-specifications",
+      "@type": "@id",
+      "@container": "@set"
+    }
+  }
+}

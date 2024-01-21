@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "solverMapping": "https://roboticscosmos.github.io/metamodels/mappings/solver_mappings#",
+
+    "SolverMapping": "solverMapping:SolverMapping",
+
+    "solver": {
+      "@id": "solverMapping:controller",
+      "@type": "@id"
+    },
+
+    "input": {
+      "@id": "solverMapping:input",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "output": {
+      "@id": "solverMapping:output",
+      "@type": "xsd:string"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "frame": "https://roboticscosmos.github.io/metamodels/entities/frame#",
+    "Frame": "frame:Frame"
+  }
+}

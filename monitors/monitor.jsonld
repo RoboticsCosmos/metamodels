@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "monitor": "https://roboticscosmos.github.io/metamodels/monitor#",
+
+    "Monitor": "monitor:Monitor",
+
+    "constraint": {
+      "@id": "monitor:constraint",
+      "@type": "@id"
+    }
+  }
+}

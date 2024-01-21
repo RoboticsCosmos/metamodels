@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "cs_mapping": "https://roboticscosmos.github.io/metamodels/mappings/controller_solver_mappings#",
+
+    "ControllerSolverMapping": "cs_mapping:ControllerSolverMapping",
+
+    "AccEnergy": "cs_mapping:AccEnergy",
+    "ExtWrench": "cs_mapping:ExtWrench",
+
+    "interface": {
+      "@id": "cs_mapping:interface",
+      "@type": "@id"
+    },
+
+    "solver-mappings": {
+      "@id": "cs_mapping:solver-mappings",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "controller-mappings": {
+      "@id": "cs_mapping:controller-mappings",
+      "@type": "@id",
+      "@container": "@set"
+    }
+  }
+}
