@@ -8,9 +8,9 @@
 
       "LinearDistance": "geom-rel:LinearDistance",
       "AngularDistance": "geom-rel:AngularDistance",
-      "OneDimensionalVelocity": "twist:OneDimensionalVelocity",
-      "VelocityReferencePointDirectionSpeed": "twist:VelocityReferencePointDirectionSpeed",
-      "VelocityBoundUnitDirectionSpeed": "twist:VelocityBoundUnitDirectionSpeed",
+      "OneDimensionalVelocity": "geom-rel:OneDimensionalVelocity",
+      "VelocityReferencePointDirectionSpeed": "geom-rel:VelocityReferencePointDirectionSpeed",
+      "VelocityBoundUnitDirectionSpeed": "geom-rel:VelocityBoundUnitDirectionSpeed",
 
       "between-entities": {
         "@id": "geom-rel:between-entities",
