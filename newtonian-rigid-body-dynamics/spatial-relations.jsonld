@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "dyn-rel": "https://roboticscosmos.github.io/metamodels/newtonian-rigid-body-dynamics/spatial-relations#",
+
+    "Wrench": "dyn-rel:Wrench",
+    "Force": "dyn-rel:Force",
+    "ContactForce": "dyn-rel:ContactForce",
+    "Torque": "dyn-rel:Torque",
+
+    "LinearStiffness": "dyn-rel:LinearStiffness",
+    "LinearDamping": "dyn-rel:LinearDamping",
+
+    "applied-by": {
+      "@id": "dyn-rel:applied-by",
+      "@type": "@id"
+    },
+
+    "applied-to": {
+      "@id": "dyn-rel:applied-to",
+      "@type": "@id"
+    },
+
+    "stiffness-diagonal-matrix": {
+      "@id": "dyn-rel:stiffness-diagonal-matrix",
+      "@type": "xsd:float",
+      "@container": "@list"
+    },
+
+    "damping-diagonal-matrix": {
+      "@id": "dyn-rel:damping-diagonal-matrix",
+      "@type": "@id",
+      "@container": "@list"
+    }
+  }
+}

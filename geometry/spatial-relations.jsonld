@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+
+    {
+      "EuclideanDistance": "geom-rel:EuclideanDistance",
+      "PointToPointDistance": "geom-rel:PointToPointDistance",
+
+      "LinearDistance": "geom-rel:LinearDistance",
+      "AngularDistance": "geom-rel:AngularDistance",
+      "OneDimensionalVelocity": "twist:OneDimensionalVelocity",
+      "VelocityReferencePointDirectionSpeed": "twist:VelocityReferencePointDirectionSpeed",
+      "VelocityBoundUnitDirectionSpeed": "twist:VelocityBoundUnitDirectionSpeed",
+
+      "between-entities": {
+        "@id": "geom-rel:between-entities",
+        "@container": "@set",
+        "@type": "@id"
+      },
+
+      "start": {
+        "@id": "geom-rel:start",
+        "@type": "@id"
+      },
+  
+      "speed": {
+        "@id": "geom-rel:speed",
+        "@type": "@id"
+      },
+  
+      "direction": {
+        "@id": "geom-rel:direction",
+        "@type": "@id"
+      },
+  
+      "velocity": {
+        "@id": "geom-rel:velocity",
+        "@type": "@id"
+      }
+    }
+  ]
+}

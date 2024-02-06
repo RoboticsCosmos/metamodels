@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics/coordinates.json",
+
+    {
+      "WrenchReference": "dyn-coord:WrenchReference",
+
+      "WrenchCoordinate": "dyn-coord:WrenchCoordinate",
+
+      "of": {
+        "@id": "dyn-coord:of",
+        "@type": "@id"
+      }
+    }
+  ]
+}

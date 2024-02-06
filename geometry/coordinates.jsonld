@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+
+    {
+      "DistanceReference": "geom-coord:DistanceReference",
+      "SpeedReference": "geom-coord:SpeedReference",
+
+      "DistanceCoordinate": "geom-coord:DistanceCoordinate",
+      "VectorCoordinate": "geom-coord:VectorCoordinate",
+      "SpeedCoordinate": "geom-coord:SpeedCoordinate",
+
+      "AxisX": "geom-coord:AxisX",
+      "AxisY": "geom-coord:AxisY",
+      "AxisZ": "geom-coord:AxisZ",
+
+      "PlaneXY": "geom-coord:PlaneXY",
+      "PlaneXZ": "geom-coord:PlaneXZ",
+      "PlaneYZ": "geom-coord:PlaneYZ",
+
+      "of": {
+        "@id": "geom-coord:of",
+        "@type": "@id"
+      }
+    }
+  ]
+}

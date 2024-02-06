@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+
+    {
+      "1D": "geom:1D",
+
+      "Axis": "geom:Axis",
+      "Plane": "geom:Plane",
+
+      "Direction": "geom:Direction",
+
+      "DirectionVector": "geom:DirectionVector"
+    }
+  ]
+}
