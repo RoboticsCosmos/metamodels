@@ -1,32 +1,32 @@
 {
   "@context": {
-    "constraint-ns": "https://roboticscosmos.github.io/metamodels/relations/constraint#",
+    "constraints": "https://roboticscosmos.github.io/metamodels/relations/constraints#",
 
-    "Constraint": "constraint-ns:Constraint",
-    "DistanceConstraint": "constraint-ns:DistanceConstraint",
-    "VelocityConstraint": "constraint-ns:VelocityConstraint",
-    "ForceConstraint": "constraint-ns:ForceConstraint",
+    "Constraint": "constraints:Constraint",
+    "DistanceConstraint": "constraints:DistanceConstraint",
+    "VelocityConstraint": "constraints:VelocityConstraint",
+    "ForceConstraint": "constraints:ForceConstraint",
 
-    "LessThan": "constraint-ns:LessThan",
-    "LessThanOrEqual": "constraint-ns:LessThanOrEqual",
-    "Equal": "constraint-ns:Equal",
-    "GreaterThanOrEqual": "constraint-ns:GreaterThanOrEqual",
-    "GreaterThan": "constraint-ns:GreaterThan",
-    "NotEqual": "constraint-ns:NotEqual",
-    "InInterval": "constraint-ns:InInterval",
+    "LessThan": "constraints:LessThan",
+    "LessThanOrEqual": "constraints:LessThanOrEqual",
+    "Equal": "constraints:Equal",
+    "GreaterThanOrEqual": "constraints:GreaterThanOrEqual",
+    "GreaterThan": "constraints:GreaterThan",
+    "NotEqual": "constraints:NotEqual",
+    "InInterval": "constraints:InInterval",
 
     "threshold": {
-      "@id": "constraint-ns:threshold",
+      "@id": "constraints:threshold",
       "@type": "@id"
     },
 
     "operator": {
-      "@id": "constraint-ns:operator",
+      "@id": "constraints:operator",
       "@type": "@id"
     },
 
-    "coord": {
-      "@id": "constraint-ns:coord",
+    "coordinate": {
+      "@id": "constraints:coordinate",
       "@type": "@id"
     }
   }

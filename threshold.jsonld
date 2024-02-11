@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "thresholds": "https://roboticscosmos.github.io/metamodels/thresholds#",
+
+    "Threshold": "thresholds:Threshold",
+
+    "threshold-value": {
+      "@id": "thresholds:threshold-value",
+      "@type": "xsd:double"
+    }
+  }
+}

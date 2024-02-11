@@ -1,6 +1,6 @@
 {
   "@context": {
-    "monitor": "https://roboticscosmos.github.io/metamodels/monitor#",
+    "monitor": "https://roboticscosmos.github.io/metamodels/monitors/monitor#",
 
     "Monitor": "monitor:Monitor",
 

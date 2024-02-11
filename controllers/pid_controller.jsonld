@@ -1,31 +1,31 @@
 {
   "@context": {
-    "pidController": "https://roboticscosmos.github.io/metamodels/controllers/pid_controller#",
+    "pidcontroller": "https://roboticscosmos.github.io/metamodels/controllers/pid_controller#",
 
-    "PIDController": "pidController:PIDController",
+    "PIDController": "pidcontroller:PIDController",
 
     "p-gain": {
-      "@id": "pidController:p-gain",
+      "@id": "pidcontroller:p-gain",
       "@type": "xsd:float"
     },
 
     "i-gain": {
-      "@id": "pidController:i-gain",
+      "@id": "pidcontroller:i-gain",
       "@type": "xsd:float"
     },
 
     "d-gain": {
-      "@id": "pidController:d-gain",
+      "@id": "pidcontroller:d-gain",
       "@type": "xsd:float"
     },
 
     "time-step": {
-      "@id": "pidController:time-step",
+      "@id": "pidcontroller:time-step",
       "@type": "xsd:float"
     },
 
     "constraint": {
-      "@id": "pidController:constraint",
+      "@id": "pidcontroller:constraint",
       "@type": "@id"
     }
   }
