@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "embedding-map": "https://roboticscosmos.github.io/metamodels/controllers/embedding-map#",
+
+    "EmbeddingMap": "embedding-map:EmbeddingMap",
+
+    "input": {
+      "@id": "embedding-map:input",
+      "@type": "@id"
+    },
+
+    "output-external-wrench": {
+      "@id": "embedding-map:output-external-wrench",
+      "@type": "@id"
+    },
+
+    "output-acceleration-energy": {
+      "@id": "embedding-map:output-acceleration-energy",
+      "@type": "@id"
+    },
+
+    "vector": {
+      "@id": "embedding-map:vector",
+      "@type": "xsd:float",
+      "@container": "@list"
+    }
+  }
+}

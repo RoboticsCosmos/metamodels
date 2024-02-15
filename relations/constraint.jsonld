@@ -5,6 +5,8 @@
     "Constraint": "constraints:Constraint",
     "DistanceConstraint": "constraints:DistanceConstraint",
     "VelocityConstraint": "constraints:VelocityConstraint",
+    "VelocityTwistConstraint": "constraints:VelocityTwistConstraint",
+    "AccelerationConstraint": "constraints:AccelerationConstraint",
     "ForceConstraint": "constraints:ForceConstraint",
 
     "LessThan": "constraints:LessThan",

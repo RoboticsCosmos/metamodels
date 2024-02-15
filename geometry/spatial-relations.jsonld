@@ -12,6 +12,11 @@
       "VelocityReferencePointDirectionSpeed": "geom-rel:VelocityReferencePointDirectionSpeed",
       "VelocityBoundUnitDirectionSpeed": "geom-rel:VelocityBoundUnitDirectionSpeed",
 
+      "of-entity": {
+        "@id": "geom-rel:of-entity",
+        "@type": "@id"
+      },
+
       "between-entities": {
         "@id": "geom-rel:between-entities",
         "@container": "@set",

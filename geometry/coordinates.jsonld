@@ -10,16 +10,21 @@
       "VectorCoordinate": "geom-coord:VectorCoordinate",
       "SpeedCoordinate": "geom-coord:SpeedCoordinate",
 
-      "LinearVelocityVector": "geom-coord:LinearVelocityVector",
-      "AngularVelocityVector": "geom-coord:AngularVelocityVector",
+      "LinearVelocityVectorX": "geom-coord:LinearVelocityVectorX",
+      "LinearVelocityVectorY": "geom-coord:LinearVelocityVectorY",
+      "LinearVelocityVectorZ": "geom-coord:LinearVelocityVectorZ",
+      "LinearVelocityVectorXY": "geom-coord:LinearVelocityVectorXY",
+      "LinearVelocityVectorXZ": "geom-coord:LinearVelocityVectorXZ",
+      "LinearVelocityVectorYZ": "geom-coord:LinearVelocityVectorYZ",
+      "LinearVelocityVectorXYZ": "geom-coord:LinearVelocityVectorXYZ",
 
-      "VectorX": "geom-coord:VectorX",
-      "VectorY": "geom-coord:VectorY",
-      "VectorZ": "geom-coord:VectorZ",
-
-      "VectorXY": "geom-coord:VectorXY",
-      "VectorXZ": "geom-coord:VectorXZ",
-      "VectorYZ": "geom-coord:VectorYZ",
+      "AngularVelocityVectorX": "geom-coord:AngularVelocityVectorX",
+      "AngularVelocityVectorY": "geom-coord:AngularVelocityVectorY",
+      "AngularVelocityVectorZ": "geom-coord:AngularVelocityVectorZ",
+      "AngularVelocityVectorXY": "geom-coord:AngularVelocityVectorXY",
+      "AngularVelocityVectorXZ": "geom-coord:AngularVelocityVectorXZ",
+      "AngularVelocityVectorYZ": "geom-coord:AngularVelocityVectorYZ",
+      "AngularVelocityVectorXYZ": "geom-coord:AngularVelocityVectorXYZ",
 
       "of": {
         "@id": "geom-coord:of",

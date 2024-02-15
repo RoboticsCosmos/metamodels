@@ -27,6 +27,11 @@
     "constraint": {
       "@id": "pidcontroller:constraint",
       "@type": "@id"
+    },
+
+    "signal": {
+      "@id": "pidcontroller:signal",
+      "@type": "@id"
     }
   }
 }

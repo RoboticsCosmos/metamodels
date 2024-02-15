@@ -4,14 +4,28 @@
 
     "VereshchaginSolver": "vereshchaginSolver:VereshchaginSolver",
 
+    "root-acceleration": {
+      "@id": "vereshchaginSolver:root-acceleration",
+      "@type": "xsd:double",
+      "@container": "@list"
+    },
+    
     "alpha-constraints": {
       "@id": "vereshchaginSolver:alpha-constraints",
+      "@type": "@id",
       "@container": "@list"
     },
 
     "beta-constraints": {
       "@id": "vereshchaginSolver:beta-constraints",
-      "@container": "@list"
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "external-wrench": {
+      "@id": "vereshchaginSolver:external-wrench",
+      "@type": "@id",
+      "@container": "@set"
     }
   }
 }
