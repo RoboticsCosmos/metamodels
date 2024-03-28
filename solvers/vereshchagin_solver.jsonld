@@ -1,31 +1,29 @@
 {
-  "@context": {
-    "vereshchaginSolver": "https://roboticscosmos.github.io/metamodels/solvers/vereshchagin_solver#",
-
-    "VereshchaginSolver": "vereshchaginSolver:VereshchaginSolver",
-
-    "root-acceleration": {
-      "@id": "vereshchaginSolver:root-acceleration",
-      "@type": "xsd:double",
-      "@container": "@list"
-    },
-    
-    "alpha-constraints": {
-      "@id": "vereshchaginSolver:alpha-constraints",
-      "@type": "@id",
-      "@container": "@list"
-    },
-
-    "beta-constraints": {
-      "@id": "vereshchaginSolver:beta-constraints",
-      "@type": "@id",
-      "@container": "@set"
-    },
-
-    "external-wrench": {
-      "@id": "vereshchaginSolver:external-wrench",
-      "@type": "@id",
-      "@container": "@set"
+  "@context": [
+    "https://roboticscosmos.github.io/metamodels/solvers/solver.jsonld",
+    {
+      "vereshchaginSolver": "https://roboticscosmos.github.io/metamodels/solvers/vereshchagin_solver#",
+      "VereshchaginSolver": "vereshchaginSolver:VereshchaginSolver",
+      "root-acceleration": {
+        "@id": "vereshchaginSolver:root-acceleration",
+        "@type": "xsd:double",
+        "@container": "@list"
+      },
+      "alpha-constraints": {
+        "@id": "vereshchaginSolver:alpha-constraints",
+        "@type": "@id",
+        "@container": "@list"
+      },
+      "beta-constraints": {
+        "@id": "vereshchaginSolver:beta-constraints",
+        "@type": "@id",
+        "@container": "@set"
+      },
+      "external-wrench": {
+        "@id": "vereshchaginSolver:external-wrench",
+        "@type": "@id",
+        "@container": "@set"
+      }
     }
-  }
+  ]
 }

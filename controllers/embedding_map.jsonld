@@ -4,6 +4,16 @@
 
     "EmbeddingMap": "embedding-map:EmbeddingMap",
 
+    "controller": {
+      "@id": "embedding-map:controller",
+      "@type": "@id"
+    },
+
+    "solver": {
+      "@id": "embedding-map:solver",
+      "@type": "@id"
+    },
+
     "input": {
       "@id": "embedding-map:input",
       "@type": "@id"

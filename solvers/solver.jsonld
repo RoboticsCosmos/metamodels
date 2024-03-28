@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "solver": "https://roboticscosmos.github.io/metamodels/solvers/solver#",
+
+    "Solver": "solver:Solver"
+  }
+}

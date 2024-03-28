@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "controller": "https://roboticscosmos.github.io/metamodels/controllers/controller#",
+
+    "Controller": "controller:Controller",
+
+    "constraint": {
+      "@id": "controller:constraint",
+      "@type": "@id"
+    },
+
+    "signal": {
+      "@id": "controller:signal",
+      "@type": "@id"
+    }
+  }
+}
