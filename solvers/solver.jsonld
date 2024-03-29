@@ -2,6 +2,12 @@
   "@context": {
     "solver": "https://roboticscosmos.github.io/metamodels/solvers/solver#",
 
-    "Solver": "solver:Solver"
+    "Solver": "solver:Solver",
+
+    "root-acceleration": {
+      "@id": "solver:root-acceleration",
+      "@type": "xsd:double",
+      "@container": "@list"
+    }
   }
 }
