@@ -10,6 +10,14 @@
       "VectorCoordinate": "geom-coord:VectorCoordinate",
       "SpeedCoordinate": "geom-coord:SpeedCoordinate",
 
+      "DistanceVectorX": "geom-coord:DistanceVectorX",
+      "DistanceVectorY": "geom-coord:DistanceVectorY",
+      "DistanceVectorZ": "geom-coord:DistanceVectorZ",
+      "DistanceVectorXY": "geom-coord:DistanceVectorXY",
+      "DistanceVectorXZ": "geom-coord:DistanceVectorXZ",
+      "DistanceVectorYZ": "geom-coord:DistanceVectorYZ",
+      "DistanceVectorXYZ": "geom-coord:DistanceVectorXYZ",
+
       "LinearVelocityVectorX": "geom-coord:LinearVelocityVectorX",
       "LinearVelocityVectorY": "geom-coord:LinearVelocityVectorY",
       "LinearVelocityVectorZ": "geom-coord:LinearVelocityVectorZ",

@@ -7,6 +7,8 @@
     "ContactForce": "dyn-rel:ContactForce",
     "Torque": "dyn-rel:Torque",
 
+    "Stiffness": "dyn-rel:Stiffness",
+    "Damping": "dyn-rel:Damping",
     "LinearStiffness": "dyn-rel:LinearStiffness",
     "LinearDamping": "dyn-rel:LinearDamping",
 

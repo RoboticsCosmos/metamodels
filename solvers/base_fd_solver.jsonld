@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "baseFDSolver": "https://roboticscosmos.github.io/metamodels/solvers/base_fd_solver#",
+    
+    "BaseFDSolver": "baseFDSolver:BaseFDSolver",
+
+    "wrench": {
+      "@id": "baseFDSolver:wrench",
+      "@type": "@id"
+    }
+  }
+}

@@ -1,25 +1,24 @@
 {
-  "@context": [
-    "https://roboticscosmos.github.io/metamodels/solvers/solver.jsonld",
-    {
-      "vereshchaginSolver": "https://roboticscosmos.github.io/metamodels/solvers/vereshchagin_solver#",
-      "VereshchaginSolver": "vereshchaginSolver:VereshchaginSolver",
-      
-      "alpha-constraints": {
-        "@id": "vereshchaginSolver:alpha-constraints",
-        "@type": "@id",
-        "@container": "@list"
-      },
-      "beta-constraints": {
-        "@id": "vereshchaginSolver:beta-constraints",
-        "@type": "@id",
-        "@container": "@set"
-      },
-      "external-wrench": {
-        "@id": "vereshchaginSolver:external-wrench",
-        "@type": "@id",
-        "@container": "@set"
-      }
+  "@context": {
+    "achdSolver": "https://roboticscosmos.github.io/metamodels/solvers/vereshchagin_solver#",
+    
+    "ACHDSolver": "achdSolver:ACHDSolver",
+    "ACHDSolverFext": "achdSolver:ACHDSolverFext",
+    
+    "alpha-constraints": {
+      "@id": "achdSolver:alpha-constraints",
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "beta-acceleration-energy": {
+      "@id": "achdSolver:beta-acceleration-energy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "external-wrench": {
+      "@id": "achdSolver:external-wrench",
+      "@type": "@id",
+      "@container": "@set"
     }
-  ]
+  }
 }

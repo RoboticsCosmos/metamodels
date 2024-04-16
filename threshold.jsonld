@@ -4,9 +4,24 @@
 
     "Threshold": "thresholds:Threshold",
 
-    "threshold-value": {
-      "@id": "thresholds:threshold-value",
-      "@type": "xsd:double"
+    "reference-value": {
+      "@id": "thresholds:reference-value",
+      "@type": "@id"
+    },
+    
+    "upper-threshold": {
+      "@id": "thresholds:upper-threshold",
+      "@type": "@id"
+    },
+
+    "lower-threshold": {
+      "@id": "thresholds:lower-threshold",
+      "@type": "@id"
+    },
+
+    "threshold": {
+      "@id": "thresholds:threshold",
+      "@type": "@id"
     }
   }
 }

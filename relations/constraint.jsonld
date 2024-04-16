@@ -27,8 +27,8 @@
       "@type": "@id"
     },
 
-    "coordinate": {
-      "@id": "constraints:coordinate",
+    "quantity": {
+      "@id": "constraints:quantity",
       "@type": "@id"
     }
   }

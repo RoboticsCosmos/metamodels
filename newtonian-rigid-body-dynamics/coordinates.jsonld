@@ -4,8 +4,16 @@
 
     {
       "WrenchReference": "dyn-coord:WrenchReference",
+      "ForceReference": "dyn-coord:ForceReference",
+      "TorqueReference": "dyn-coord:TorqueReference",
 
       "WrenchCoordinate": "dyn-coord:WrenchCoordinate",
+      "ForceCoordinate": "dyn-coord:ForceCoordinate",
+      "TorqueCoordinate": "dyn-coord:TorqueCoordinate",
+
+      "ForceVectorX": "dyn-coord:ForceVectorX",
+      "ForceVectorY": "dyn-coord:ForceVectorY",
+      "ForceVectorZ": "dyn-coord:ForceVectorZ",
 
       "of": {
         "@id": "dyn-coord:of",
