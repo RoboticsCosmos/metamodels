@@ -18,6 +18,11 @@
       "of": {
         "@id": "dyn-coord:of",
         "@type": "@id"
+      },
+
+      "as-seen-by": {
+        "@id": "dyn-coord:as-seen-by",
+        "@type": "@id"
       }
     }
   ]
