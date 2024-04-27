@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "robots": "https://roboticscosmos.github.io/metamodels/robots#",
+
+    "Robot": "robots:Robot",
+    "Manipulator": "robots:Manipulator",
+    "MobileBase": "robots:MobileBase",
+
+    "solvers": {
+      "@id": "robots:solvers",
+      "@type": "@id",
+      "@container": "@set"
+    }
+    
+  }
+}
