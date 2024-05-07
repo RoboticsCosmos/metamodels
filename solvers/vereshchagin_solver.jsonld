@@ -19,6 +19,16 @@
       "@id": "achdSolver:external-wrench",
       "@type": "@id",
       "@container": "@set"
+    },
+
+    "root-link": {
+      "@id": "achdSolver:root-link",
+      "@type": "@id"
+    },
+
+    "tip-link": {
+      "@id": "achdSolver:tip-link",
+      "@type": "@id"
     }
   }
 }
