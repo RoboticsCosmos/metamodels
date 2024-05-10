@@ -6,6 +6,16 @@
     "Manipulator": "robots:Manipulator",
     "MobileBase": "robots:MobileBase",
 
+    "kinematic-chain-start": {
+      "@id": "robots:kinematic-chain-start",
+      "@type": "@id"
+    },
+    
+    "kinematic-chain-end": {
+      "@id": "robots:kinematic-chain-end",
+      "@type": "@id"
+    },
+
     "solvers": {
       "@id": "robots:solvers",
       "@type": "@id",
