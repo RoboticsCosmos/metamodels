@@ -12,6 +12,11 @@
     "damping": {
       "@id": "impedanceController:damping",
       "@type": "@id"
+    },
+
+    "force": {
+      "@id": "impedanceController:force",
+      "@type": "@id"
     }
   }
 }

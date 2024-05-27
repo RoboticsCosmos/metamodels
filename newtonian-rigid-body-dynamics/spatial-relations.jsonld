@@ -3,8 +3,11 @@
     "dyn-rel": "https://roboticscosmos.github.io/metamodels/newtonian-rigid-body-dynamics/spatial-relations#",
 
     "Wrench": "dyn-rel:Wrench",
+    
     "Force": "dyn-rel:Force",
     "ContactForce": "dyn-rel:ContactForce",
+    "VirtualForce": "dyn-rel:VirtualForce",
+
     "Torque": "dyn-rel:Torque",
 
     "Stiffness": "dyn-rel:Stiffness",
