@@ -10,6 +10,22 @@
       "VectorCoordinate": "geom-coord:VectorCoordinate",
       "SpeedCoordinate": "geom-coord:SpeedCoordinate",
 
+      "PositionVectorX": "geom-coord:PositionVectorX",
+      "PositionVectorY": "geom-coord:PositionVectorY",
+      "PositionVectorZ": "geom-coord:PositionVectorZ",
+      "PositionVectorXY": "geom-coord:PositionVectorXY",
+      "PositionVectorXZ": "geom-coord:PositionVectorXZ",
+      "PositionVectorYZ": "geom-coord:PositionVectorYZ",
+      "PositionVectorXYZ": "geom-coord:PositionVectorXYZ",
+
+      "OrientationVectorX": "geom-coord:OrientationVectorX",
+      "OrientationVectorY": "geom-coord:OrientationVectorY",
+      "OrientationVectorZ": "geom-coord:OrientationVectorZ",
+      "OrientationVectorXY": "geom-coord:OrientationVectorXY",
+      "OrientationVectorXZ": "geom-coord:OrientationVectorXZ",
+      "OrientationVectorYZ": "geom-coord:OrientationVectorYZ",
+      "OrientationVectorXYZ": "geom-coord:OrientationVectorXYZ",
+
       "DistanceVectorX": "geom-coord:DistanceVectorX",
       "DistanceVectorY": "geom-coord:DistanceVectorY",
       "DistanceVectorZ": "geom-coord:DistanceVectorZ",
