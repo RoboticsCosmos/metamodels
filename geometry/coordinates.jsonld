@@ -4,11 +4,14 @@
 
     {
       "DistanceReference": "geom-coord:DistanceReference",
+      "AngularDistanceReference": "geom-coord:AngularDistanceReference",
       "SpeedReference": "geom-coord:SpeedReference",
 
       "DistanceCoordinate": "geom-coord:DistanceCoordinate",
       "VectorCoordinate": "geom-coord:VectorCoordinate",
       "SpeedCoordinate": "geom-coord:SpeedCoordinate",
+
+      "AngularDistanceCoordinate": "geom-coord:AngularDistanceCoordinate",
 
       "PositionVectorX": "geom-coord:PositionVectorX",
       "PositionVectorY": "geom-coord:PositionVectorY",
@@ -49,6 +52,8 @@
       "AngularVelocityVectorXZ": "geom-coord:AngularVelocityVectorXZ",
       "AngularVelocityVectorYZ": "geom-coord:AngularVelocityVectorYZ",
       "AngularVelocityVectorXYZ": "geom-coord:AngularVelocityVectorXYZ",
+
+      "AngleAboutZ": "geom-coord:AngleAboutZ",
 
       "of": {
         "@id": "geom-coord:of",

@@ -12,6 +12,8 @@
       "VelocityReferencePointDirectionSpeed": "geom-rel:VelocityReferencePointDirectionSpeed",
       "VelocityBoundUnitDirectionSpeed": "geom-rel:VelocityBoundUnitDirectionSpeed",
 
+      "AngularDistanceBetweenLines": "geom-rel:AngularDistanceBetweenLines",
+
       "of-entity": {
         "@id": "geom-rel:of-entity",
         "@type": "@id"
