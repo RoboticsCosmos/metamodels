@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "expressions": "https://roboticscosmos.github.io/metamodels/expressions#",
+
+    "Expression": "expressions:Expression",
+
+    "depends-on": {
+      "@id": "expressions:depends-on",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "expr": {
+      "@id": "expressions:expr",
+      "@type": "@id",
+      "@container": "@set"
+    }
+  }
+}

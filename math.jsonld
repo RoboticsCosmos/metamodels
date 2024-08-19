@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "math": "https://roboticscosmos.github.io/metamodels/math#",
+
+    "Math": "math:Math",
+    
+    "Addition": "math:Addition",
+    "Subtraction": "math:Subtraction",
+    "Multiplication": "math:Multiplication",
+    "Division": "math:Division",
+    "Exponentiation": "math:Exponentiation",
+    "SquareRoot": "math:SquareRoot",
+    "AbsoluteValue": "math:AbsoluteValue",
+    "Modulo": "math:Modulo",
+    "Negation": "math:Negation",
+    
+    "input": {
+      "@id": "math:input",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "output": {
+      "@id": "math:output",
+      "@type": "@id",
+      "@container": "@set"
+    }
+    
+  }
+}
